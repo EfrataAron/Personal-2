@@ -17,7 +17,7 @@ comprehensions)
 
 #Example 1
 print("Example 1")
-Age = 70
+Age = 70 
 
 if Age < 18: 
     print('You are an adult')
