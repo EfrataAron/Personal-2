@@ -10,3 +10,4 @@ First_name = input("what is your first name?")
 Favourite_color = input("what is your favourite color?")
 
 print(First_name + " " + "prefers" + " " + Favourite_color + " " + "to any other colour")
+
