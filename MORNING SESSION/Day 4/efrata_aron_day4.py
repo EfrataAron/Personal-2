@@ -9,23 +9,23 @@
     -indexed by keys
     
     """
-    
-    # Example 1: Create a dictionary
-    # Create a dictionary for a student pursuing software engineering
-    # the key must be your name, age, technology interest and year of study. put
-    # your own details
-    
+
+# Example 1: Create a dictionary
+# Create a dictionary for a student pursuing software engineering
+# the key must be your name, age, technology interest and year of study. put
+# your own details
+
 print("Example 1 Solution")
 
 student_dict = {
-        'name' : 'Efrata Aron',
-        'age' : '30',
-        'technology': 'AI and ML',
-        'course': 'BSE',
-        'Year': 'Year3'
-    }
-    
-print(student_dict['name'])
+    "name": "Efrata Aron",
+    "age": "30",
+    "technology": "AI and ML",
+    "course": "BSE",
+    "Year": "Year3",
+}
+
+print(student_dict["name"])
 print()
 
 # Access values
@@ -34,29 +34,29 @@ print()
 
 # Exercise 1: Modify age and technology
 print("Exercise 1 Solution")
-student_dict['age'] = '42'
-student_dict['technology'] = 'Robotics'
+student_dict["age"] = "42"
+student_dict["technology"] = "Robotics"
 
 
-print(student_dict['age'])  
-print(student_dict['technology'])
+print(student_dict["age"])
+print(student_dict["technology"])
 
 # Example2: adding keys and values
 print()
 print("Example 2")
-student_dict['email'] = 'efrataaron5@gmail.com'
+student_dict["email"] = "efrataaron5@gmail.com"
 
 print(student_dict)
 
 # Exercise 2: Remove a key and value from student dictionary
 print()
 print("Exercise 2 Solution")
-del student_dict['age']
+del student_dict["age"]
 print(student_dict)
 
 # Remove using pop() method
-year = student_dict.pop('Year')
-print("dictionary after removing Year" ,student_dict)
+year = student_dict.pop("Year")
+print("dictionary after removing Year", student_dict)
 print("removed value", year)
 print()
 
@@ -75,22 +75,22 @@ pop() // Removes the specified key and return the corresponding value
 """
 # Example 3: Use the get method to get the value
 print("Example 3 ")
-print(student_dict.get('technology'))
+print(student_dict.get("technology"))
 
-# Exercise 3: Use the update method to change value in age 
+# Exercise 3: Use the update method to change value in age
 
-student_dict.update({'age': '25'})
+student_dict.update({"age": "25"})
 print(student_dict)
 print()
 
 # Exercise 4: Use the if to check if the key 'age' is present in the dictionary
 print("Exercise 4 Solution")
-if 'age' in student_dict:
-    print(" age is present in the dictionary.", student_dict['age'])
-    
+if "age" in student_dict:
+    print(" age is present in the dictionary.", student_dict["age"])
+
 else:
     print(" age is not present in the dictionary.")
-    
+
 print()
 
 # keys(), values() and the items() methods
@@ -108,12 +108,9 @@ values tuple pairs
  """
 print()
 
- # Exercise 5: Use the update method to change the course and add a new 
- # key "WhatsApp_Number" to the dictionary
+# Exercise 5: Use the update method to change the course and add a new
+# key "WhatsApp_Number" to the dictionary
 print("Exercise 5 Solution")
-student_dict.update({
-    'course': 'BSC',
-    'WhatsApp_Number': '0770636395'
-})
-print("Student dictionary after change" , student_dict)
+student_dict.update({"course": "BSC", "WhatsApp_Number": "0770636395"})
+print("Student dictionary after change", student_dict)
 print()
