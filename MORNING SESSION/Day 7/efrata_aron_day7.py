@@ -219,6 +219,10 @@ with open("efrata.csv", "r") as csv_file:
 
 JSON ( Javascript Object Notation ) and XML ( extensible Markup Language ) are formats used to
 structure data.
+Key Concepts 
+Loading JSON data: using json.load() for reading JSON file 
+Dumping JSON Data: using json.dump() for writing JSON file
+Parsing JSON Fata: using json.loads() for handling JSON strings
 
 
 """
